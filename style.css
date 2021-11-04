@@ -1,3 +1,115 @@
-h1 {
-  color: red;
+html {
+  background-color: #404040;
+}
+
+.header {
+  color: #bbbbbb;
+  font-family: cursive;
+  border: 5px solid;
+  border-color: #bbbbbb;
+  display: grid;
+  justify-content: center;
+}
+
+.hNav1 {
+  color: #8b8b8b;
+  font-family: serif;
+  font-size: 175%;
+  display: grid;
+  justify-content: center;
+  text-decoration: underline;
+}
+
+.navMenu1 ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+
+.navMenu1 {
+  display: block;
+  color: white;
+  border: 3px solid;
+  border-color: white;
+  font-size: 150%;
+  font-family: monospace;
+}
+
+.brand1 {
+  margin-right: 300px;
+}
+
+.navMenu1 a {
+  text-decoration: none;
+  color: white;
+}
+
+.navMenu1 a:hover {
+  color: #6e6e6e;
+}
+
+
+.hNav2 {
+  color: #8b8b8b;
+  font-family: serif;
+  font-size: 175%;
+  display: grid;
+  justify-content: center;
+  text-decoration: underline;
+}
+
+.navMenu2 ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+
+.navMenu2 {
+  display: block;
+  color: white;
+  border: 3px solid;
+  border-color: white;
+  font-size: 150%;
+  font-family: monospace;
+}
+
+.brand2 {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.navMenu2 a {
+  text-decoration: none;
+  color: white;
+}
+
+.navMenu2 a:hover {
+  color: #6e6e6e;
+}
+
+.hButtons {
+  color: #8b8b8b;
+  font-family: serif;
+  font-size: 175%;
+  display: grid;
+  justify-content: center;
+  text-decoration: underline;
+}
+
+.buttonList {
+  list-style: none;
+}
+
+.button1 {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #6e6e6e;
+  color: white;
+  border: 0;
 }
